@@ -1,0 +1,77 @@
+{
+  "id": "pass-the-torch-demo",
+  "title": "Pass the Torch - Demo",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "terrain-height-tools",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "DMtheTulio",
+      "email": "dmthetulio@gmail.com",
+      "url": "https://startplaying.games/gm/dmthetulio",
+      "discord": "dmthetulio",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pass-the-torch-actors",
+      "label": "Pass the Torch - Actors",
+      "path": "packs/pass-the-torch-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "lancer",
+      "flags": {}
+    },
+    {
+      "name": "pass-the-torch-scenes",
+      "label": "Pass the Torch - Scenes",
+      "path": "packs/pass-the-torch-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "lancer",
+      "flags": {}
+    },
+    {
+      "name": "pass-the-torch-rollable-tables",
+      "label": "Pass the Torch - Rollable Tables",
+      "path": "packs/pass-the-torch-rollable-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "lancer",
+      "flags": {}
+    },
+    {
+      "name": "pass-the-torch-journals",
+      "label": "Pass the Torch - Journals",
+      "path": "packs/pass-the-torch-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "lancer",
+      "flags": {}
+    }
+  ]
+}
